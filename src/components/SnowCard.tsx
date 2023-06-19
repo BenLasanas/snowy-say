@@ -1,13 +1,15 @@
-function SnowyCard(){
-return(
-    <div>
-        <a href="https://easydrawingguides.com/wp-content/uploads/2021/12/cute-dog-step-by-step-drawing-tutorial-step-10.png"></a>
+import "./SnowCard.css";
+import SnowyPNG from "../assets/snowysay.png";
+function SnowyCard() {
+  return (
+    <div className="container">
+      <img src={SnowyPNG} className="img-snow" />
+      <div className="text-container">
         <h1 className="primary-color">Snowy</h1>
-        <h1 className="primary-color">Say</h1>
-        <h1>💭</h1>
+        <h1 className="primary-color">Say 💭</h1>
+      </div>
     </div>
-);
-
+  );
 }
 
 export default SnowyCard;
