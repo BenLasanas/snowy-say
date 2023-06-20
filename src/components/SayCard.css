@@ -3,3 +3,26 @@
     flex-direction: column;
     align-items: center;
 }
+
+.items-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center ;
+    background-color:#a59476;
+    
+}
+
+.choice-container{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.coming-soon{
+    display:flex;
+    align-items: center;
+    background-color: #f5f5dc;
+    margin-bottom: 15px ;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+}

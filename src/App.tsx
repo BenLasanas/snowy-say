@@ -5,7 +5,7 @@ import SnowyCard from "./components/SnowCard";
 function App() {
   return (
     <div>
-      <SnowyCard/>
+      <SnowyCard />
       <SayCard />
     </div>
   );
