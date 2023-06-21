@@ -1,5 +1,6 @@
 import React, { useState, FormEvent } from "react";
 import axios from "axios";
+import "./styles/Weather.css";
 
 interface WeatherData {
   name: string;
@@ -26,7 +27,7 @@ const Weather: React.FC = () => {
       );
       setWeatherData(response.data);
     } catch (error) {
-      console.error(error);
+      window.alert("Snowy cannot find that city!");
     }
   };
 
@@ -40,7 +41,7 @@ const Weather: React.FC = () => {
       <form onSubmit={handleSearch}>
         <input
           type="text"
-          placeholder="Enter a city"
+          placeholder="Enter a place"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />

@@ -4,10 +4,7 @@ function SnowyCard() {
   return (
     <div className="container">
       <img src={SnowyPNG} className="img-snow" />
-      <div className="text-container">
-        <h1>Snowy</h1>
-        <h1>Say 💭</h1>
-      </div>
+      <div className="text-container"></div>
     </div>
   );
 }
