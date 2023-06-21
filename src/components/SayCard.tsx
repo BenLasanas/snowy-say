@@ -1,13 +1,13 @@
 import "./SayCard.css";
+import Weather from "./Weather";
 
-function SayCard() {
+const SayCard: React.FC = () => {
   return (
     <div className="flex-container">
       <h1> What will Snowy say today?</h1>
       <div className="items-container">
         <div className="choice-container">
-          <button>Click here for weather</button>
-          <h2>Weather</h2>
+          <Weather />
         </div>
         <div className="choice-container">
           <button>Click here for Time</button>
@@ -20,6 +20,6 @@ function SayCard() {
       </div>
     </div>
   );
-}
+};
 
 export default SayCard;
