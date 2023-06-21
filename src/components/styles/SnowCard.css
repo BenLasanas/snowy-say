@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 .text-container{
@@ -11,15 +12,14 @@
 }
 
 .img-snow{
-    max-width: 50vw;
-    max-height: 50vw;
+    max-width: 60vw;
+    max-height: 75vh;
     min-width: 30vw;
-    min-height: 30vw;
+    min-height: 30vh;
 }
 
 h1{
     color: #A59476;
-
 }
 
 

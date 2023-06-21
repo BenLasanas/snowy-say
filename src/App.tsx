@@ -4,7 +4,7 @@ import SnowyCard from "./components/SnowCard";
 
 function App() {
   return (
-    <div>
+    <div className="main-container">
       <SnowyCard />
       <SayCard />
     </div>

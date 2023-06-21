@@ -1,4 +1,4 @@
-import "./SayCard.css";
+import "./styles/SayCard.css";
 import Weather from "./Weather";
 
 const SayCard: React.FC = () => {
